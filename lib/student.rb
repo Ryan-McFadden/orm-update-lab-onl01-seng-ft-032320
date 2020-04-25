@@ -77,7 +77,7 @@ class Student
       WHERE id = ?
       SQL
       
-    DB[:conn].execute(sql, id, name, grade)
+    DB[:conn].execute(sql, name, grade, id)
   end 
 
 end
