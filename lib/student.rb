@@ -52,7 +52,8 @@ class Student
   end 
   
   def self.new_from_db(row)
-    
+    new_student = student.new 
+    new_student.name = 
   end 
 
 end
