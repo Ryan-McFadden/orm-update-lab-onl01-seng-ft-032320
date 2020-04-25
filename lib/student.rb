@@ -71,7 +71,8 @@ class Student
   end 
   
   def update
-    
+    sql = <<-SQL
+      UPDATE students
   end 
 
 end
